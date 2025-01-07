@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flex-box</title>
+    <style>
+        .container {
+            border: 2px solid black;
+            display: flex;
+            flex-direction: row;
+            /* justify-content: center; */
+            /* justify-content: space-evenly; --evenly distributed all size*/
+            /* justify-content: space-around; --there is a half space between 1st and last element and body*/
+            /* justify-content: space-between;--there is no space on 1st and last element */
+            align-items: center;
+            height: 90vh;
+            flex-wrap: wrap;
+        }
+        .item{
+            height: 90px;
+            width: 90px;
+            border:2px solid green;
+            color: white;
+            background-color: blueviolet;
+            font-size: 30px;
+            margin: 10px;
+            text-align:center;
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <div class="container">
+            <div class="item">1</div>
+            <div class="item">2</div>
+            <div class="item">3</div>
+            <div class="item">4</div>
+            <div class="item">5</div>
+            <div class="item">6</div>
+            <div class="item">7</div>
+            <div class="item">8</div>
+            <div class="item">9</div>
+            <div class="item">10</div>
+            <div class="item">11</div>
+        </div>
+    </main>
+</body>
+
+</html>

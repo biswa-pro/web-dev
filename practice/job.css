@@ -1,0 +1,25 @@
+body{
+   margin: 0;
+   padding: 0;
+}
+#outer{
+    background-color: darkcyan;
+}
+#inner{
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    
+}
+ 
+#regd{
+    background-color: blueviolet;
+    height: fit-content;
+    width: fit-content;
+}
+
+
+
+
+
