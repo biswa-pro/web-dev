@@ -306,4 +306,6 @@ Grid Layout in CSS :-
 1. display: grid;
 2. grid-template-column: repeat(3,1fr);
 3. grid-gap: 20px/30px...;
-4. grid-auto-columns: 100px/200px....;
+4. grid-auto-columns: 100px/200px..
+
+
